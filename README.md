@@ -62,7 +62,7 @@ return [
 
 3. 在项目目录下创建 .env 文件，并更具需要配置环境变量
 
-`.env`
+`cp .env.example .env`
 
 ```
 # database
