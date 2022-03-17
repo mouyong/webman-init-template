@@ -73,3 +73,49 @@ DB_DATABASE=webman
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
+
+4. 控制器继承
+
+```
+<?php
+
+namespace app\controller;
+
+use support\Request;
+use Mouyong\WebmanInitTemplate\Controllers\WebmanBaseController;
+
+class Index extends WebmanBaseController
+{
+    <...>
+}
+```
+
+5. 错误处理集成
+
+见文档 README.md 说明: https://github.com/mouyong/php-support
+
+`support/exception/Handle.php`
+
+```
+<?php
+
+namespace support\exception;
+
+use Webman\Http\Request;
+use Webman\Http\Response;
+use Throwable;
+use Webman\Exception\ExceptionHandler;
+use ZhenMu\Support\Traits\WebmanResponseTrait;
+
+class Handler extends ExceptionHandler
+{
+    use WebmanResponseTrait;
+
+    <...>
+    
+    public function render(Request $request, Throwable $exception): Response
+    {
+        return $this->renderableHandle($request, $exception); // 这里进行调用，做了一些错误捕捉
+    }
+}
+```
