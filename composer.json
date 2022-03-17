@@ -1,0 +1,21 @@
+{
+    "name": "mouyong/webman-init-template",
+    "autoload": {
+        "psr-4": {
+            "Mouyong\\WebmanInitTemplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mouyong",
+            "email": "my24251325@gmail.com",
+            "homepage": "https://github.com/mouyong",
+            "role": "Creator"
+        }
+    ],
+    "require": {
+        "webman/console": "^1.0",
+        "zhenmu/support": "^1.0",
+        "mouyong/validate": "^1.0"
+    }
+}
