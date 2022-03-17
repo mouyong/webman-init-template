@@ -21,6 +21,7 @@
         "illuminate/pagination": "^8.0 || ^9.5",
         "illuminate/events": "^8.0 || ^9.5",
         "vlucas/phpdotenv": "^5.4",
-        "robmorgan/phinx": "^0.12.10"
+        "robmorgan/phinx": "^0.12.10",
+        "yzh52521/webman-event": "^1.0"
     }
 }
