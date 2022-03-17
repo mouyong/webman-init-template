@@ -9,7 +9,7 @@ class Install
      * @var array
      */
     protected static $pathRelation = array(
-        'stubs/env.stub' => '.env'
+        'stubs/env.stub' => '.env.example'
     );
 
     /**
