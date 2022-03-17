@@ -4,6 +4,15 @@
 
 `rm composer.lock && composer require mouyong/webman-init-template:dev-master`
 
+## 启用插件
+
+```
+./webman plugin:install zhen-mu/support
+./webman plugin:install mouyong/validate
+./webman plugin:install mouyong/webman-init-template
+rm app/controller/WebmanBaseController.php
+```
+
 ## 引入的第三方包
 
 |包名|作用|文档|
