@@ -1,18 +1,24 @@
 ## 安装
 
-`composer require mouyong/webman-init-template:dev-master`
+**注意: 安装包之前，先移除项目的 composer.lock 文件，避免无法安装 phinx 包的问题 (https://www.workerman.net/q/8016)**
+
+`rm composer.lock && composer require mouyong/webman-init-template:dev-master`
 
 ## 引入的第三方包
 
-|包名|作用|
-|---|---|
-|zhenmu/support|基础支持|
-|mouyong/validate|表单验证|
-|webman/console|web 控制台插件|
-|illuminate/database|数据库|
-|illuminate/pagination|数据分页|
-|illuminate/events|event 事件|
-|vlucas/phpdotenv|.env 文件管理|
+**注意: 安装包之前，先移除项目的 composer.lock 文件，避免无法安装 phinx 包的问题 (https://www.workerman.net/q/8016)**
+
+|包名|作用|文档|
+|---|---|---|
+|zhenmu/support|基础支持||
+|mouyong/validate|表单验证||
+|webman/console|web 控制台插件||
+|vlucas/phpdotenv|.env 文件管理||
+|illuminate/database|数据库||
+|illuminate/pagination|数据分页||
+|illuminate/events|event 事件||
+|robmorgan/phinx|数据库迁移||
+
 
 ## 使用
 
