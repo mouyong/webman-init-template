@@ -6,18 +6,17 @@
 
 ## 引入的第三方包
 
-**注意: 安装包之前，先移除项目的 composer.lock 文件，避免无法安装 phinx 包的问题 (https://www.workerman.net/q/8016)**
-
 |包名|作用|文档|
 |---|---|---|
-|zhenmu/support|基础支持||
-|mouyong/validate|表单验证||
-|webman/console|web 控制台插件||
-|vlucas/phpdotenv|.env 文件管理||
-|illuminate/database|数据库||
-|illuminate/pagination|数据分页||
-|illuminate/events|event 事件||
-|robmorgan/phinx|数据库迁移||
+|zhenmu/support|基础支持|https://github.com/mouyong/php-support|
+|mouyong/validate|表单验证|https://github.com/mouyong/validate|
+|webman/console|web 命令行插件|https://www.workerman.net/plugin/1|
+|vlucas/phpdotenv|.env 文件管理|https://github.com/vlucas/phpdotenv|
+|illuminate/database|数据库|https://learnku.com/docs/laravel/9.x/database/12245|
+|illuminate/pagination|数据分页|https://learnku.com/docs/laravel/9.x/pagination/12247|
+|illuminate/events|event 事件|https://learnku.com/docs/laravel/9.x/events/12228|
+|robmorgan/phinx|phinx 数据库迁移|https://tsy12321.gitbooks.io/phinx-doc/content/|
+|yzh52521/webman-event|webman 基于 laravel event 的事件|https://www.workerman.net/plugin/27|
 
 
 ## 使用
